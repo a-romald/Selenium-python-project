@@ -1,4 +1,5 @@
 Selenium python project.
+
 Selenium python project consists of two parts. The first script avito.py creates database, parses data from the site avito.ru with webdriver and Selenium-python, parses images of phones and makes their optical recognition with Tesseract-OCR. The retrived images stored in `phones` directory for further ocr-processing. The second script tripadvisorTest.py makes selenium test of pagination of the site tripadvisor.ru and parses data of hotels from each page of the selected city.
 
 Features
