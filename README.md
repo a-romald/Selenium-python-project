@@ -14,7 +14,7 @@ Install selenium:
 	sudo pip install selenium
 
 
-Install webdrivers Geckodriver:
+Install webdriver Geckodriver:
 
 	wget https://github.com/mozilla/geckodriver/releases/download/v0.20.0/geckodriver-v0.20.0-linux64.tar.gz
 	sudo sh -c 'tar -x geckodriver -zf geckodriver-v0.20.0-linux64.tar.gz -O > /usr/bin/geckodriver'
@@ -98,3 +98,13 @@ Run script avito.py or Create database in Mysql:
 Then run script tripadvisorTest.py that takes names of manufacturers from phones.csv file.
 
 All necessary tables given in db.sql.
+
+
+
+To create database and retrieve data from avito.ru run first script:
+
+	python avito.py
+
+To retrieve data from tripadvisor.ru run second script:
+
+	python tripadvisorTest.py
